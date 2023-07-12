@@ -1,0 +1,7 @@
+...
+for(i=10; i >= 0; i-=2)
+  {
+    System.out.println("Valor  de i 10-0 " + i);
+  }
+...
+for(;;) //Cria um laço infinito

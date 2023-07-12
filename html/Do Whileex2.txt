@@ -1,0 +1,16 @@
+public class Dowwhileex2 {
+       
+       public static void main (String args[]) {
+
+              int  r = 0;
+          
+              do {
+                      Systen.out.println(" Valor aleatorio (randomico): " + Math.random()*r);
+                      r++;
+
+              }
+              While (r <=10);
+ 
+              system.out.ptinln("Total acumulado: " + r);
+  }
+}

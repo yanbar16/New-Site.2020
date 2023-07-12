@@ -1,0 +1,64 @@
+Finitos
+Usamos laços finitos quando sabemos a quantidade de vezes que o laço de repetição será executado. Nesse caso, a execução está associada à satisfação de uma condição limite.
+Infinitos
+Usamos laços infinitos quando não sabemos a quantidade de vezes que o laço de repetição será executado e finalizado. Nesse caso, a execução não está associada à satisfação de uma condição limite.
+
+
+A estrutura do...while tem a mesma aplicabilidade da estrutura while.
+
+No entanto, essa nova estrutura introduz a execução de uma ou de várias instruções do agrupamento, pelo menos na primeira vez, antes de verificar a expressão booleana (condição lógica) que determinará a continuidade ou não do laço.
+
+A seguir, vejamos a representação lógica da estrutura do...while.
+
+Loop (laço)Faça...enquanto
+sentença...
+while(enquanto...)
+Faça as sentenças...
+SIM
+NÃO
+
+
+
+A estrutura do...while tem a mesma aplicabilidade da estrutura while.
+
+No entanto, essa nova estrutura introduz a execução de uma ou de várias instruções do agrupamento, pelo menos na primeira vez, antes de verificar a expressão booleana (condição lógica) que determinará a continuidade ou não do laço.
+
+A seguir, vejamos a representação lógica da estrutura do...while.
+
+Loop (laço)Faça...enquanto
+sentença...
+while(enquanto...)
+Faça as sentenças...
+SIM
+NÃO
+
+
+
+
+
+
+while
+while
+A estrutura while aplicaa expressão booleana (condição lógica) antes (no início). Somente depois, a instrução ou o bloco de instruções é executado
+
+
+
+Laços Infinitos
+Vamos acompanhar alguns exemplos de erro em partes específicas da programação? Clique nos exemplos para ver a análise de cada um.
+
+Exemplo 1
+Exemplo 2
+...int
+cont = 1
+;while (
+cont > 0
+) {System.out.println("4 x " + cont + " = " + 4*cont);
+cont++
+;}...
+x
+Exemplo 1 O contador cont foi inicializado com 1, cont=1. Em seguida, a expressão booleana cont > 0, na estrutura while, condiciona que os comandos internos do laço serão executados enquanto cont > 0. Desse modo, partindo de 1, e incrementando cont++, cont sempre será maior que zero cont > 0. Como consequência, não será possível finalizar o loop uma vez que ele foi inicializado.
+...while (
+true
+){System.out.println(cont++);}....
+x
+Exemplo 2 Neste exemplo, a estrutura while condiciona os comandos internos do laço, executando enquanto a expressão booleana for verdadeira, ou seja, enquanto for igual a true. Toda expressão lógica quando busca um resultado true ou false e que for inicializada, terá por padrão (default) o valor true. Precisamos tomar cuidado com o controle do loop. Isso significa ter cuidado com o elemento condicional definido para controlar se o loop será ou não executado, e qual será seu limite. Nesse sentido, quando o valor condicional true será alterado para false para que o laço de repetição possa ser encerrado? No exemplo apresentado, o valor será sempre true pela forma como a estrutura está elaborada. Observe que não há menção para alterar para false ou outro parâmetro que possa gerar um resultado lógico diferente de true.   Nesse exemplo, não será mais possível finalizar o loop quando ele foracessado.

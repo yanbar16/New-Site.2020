@@ -1,0 +1,17 @@
+API – Application Programming Interface
+A Application Programming Interface (Interface de Programação de Aplicativos) consiste em um software definido por um conjunto de rotinas e padrões para o desenvolvimento de aplicativos.
+
+
+
+No momento de sua declaração, determinamos o tamanho exato do array. Por exemplo:
+
+int [] arrayVar arrayVar = new int [4]
+Linha 1 - Definição do tipo de array com valores inteiros ( int ) Linha 2 - Definição do tamanho do array [ 4 ]
+
+
+Também podemos definir toda a estrutura array em uma linha única. Vejamos:
+
+int[] arrayVar = new int[4]
+Definição do array em linha única:int[] arrayVar (tipo de array) = new int[4] (tamanho do array
+
+

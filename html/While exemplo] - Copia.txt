@@ -1,0 +1,9 @@
+public class Whileex{
+        public static void main(String args[]) {
+                int  cont =0;
+                while (cont < 10 ) {
+                systen.out.println("contagem Progressiva " + cont++);
+                }
+                
+         }
+}

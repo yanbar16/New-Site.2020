@@ -1,0 +1,33 @@
+a:visited {
+
+}
+
+
+p{
+	color: green;
+	font-size:10px;
+}
+
+h1 {
+	color: blue;
+	font-size:16px;
+}
+
+body {
+	color: #607d8b;
+}
+
+a {
+	color: black;
+}
+
+
+div{
+	height: 200px;
+	width: 200px;
+	margin-bottom: 200px;
+
+	background: grey;
+}
+
+
